@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package array;
+
+/**
+ * 
+ */
+public class WarmUpExercises {
+ 
+	public static void main(String[] args) {
+		String str="hello";
+		 String reverse="";
+		 
+		 for(int i=str.length()-1;i>=0;i--) {
+			 reverse+=str.charAt(i);
+		 }
+		 
+		
+		System.out.println("Reverse string: " + reverse);
+	}
+	
+
+}
