@@ -1,6 +1,6 @@
 package array;
 import java.util.Scanner;
-public class encapsulation {
+public class Encapsulation {
  private String name;
  
  public void setName(String name) {
@@ -10,7 +10,7 @@ public class encapsulation {
 	  return name;
   }
   public static void main(String[] args) {
-	  encapsulation obj=new encapsulation();
+	  Encapsulation obj=new Encapsulation();
 	  Scanner sc=new Scanner(System.in);
 	  String names = sc.nextLine();
 	  obj.setName(names);
