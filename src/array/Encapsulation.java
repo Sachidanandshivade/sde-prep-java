@@ -1,6 +1,6 @@
 package array;
 import java.util.Scanner;
-public class Encapsulation {
+ class Encapsulation {
  private String name;
  
  public void setName(String name) {
